@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Store App</title>
+  <base href="/">
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+  <script src="vendor.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-app="store-app">
+  <nav class="blue lighten-1">
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="right">
+        <li>
+          <a href="#/cart">Cart</a>
+        </li>
+        <li>
+          <a href="#/profile">My Account</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="container" ng-view></section>
+</body>
+</html>

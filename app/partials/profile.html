@@ -1,0 +1,44 @@
+<section class="profile-info row">
+  
+  <div class="col s6 profile-left-container">
+    <img class="circle profile-image" src="static/images/profile.jpg">
+  </div>
+
+  <div class="col s6 profile-right-container valign-wrapper">
+    <h3 class="profile-name">
+      Fulano da Silva
+    </h3>
+  </div>
+
+</section>
+
+<section class="profile-settings row">
+  
+  <ul class="collection">
+    <li class="collection-item">
+       <form action="#">
+        
+        <div class="switch">
+          <label class="clickable">
+            Notifications
+            <label class="right">
+              Off
+              <input type="checkbox" ng-model="notifications">
+              <span class="lever"></span>
+              On
+            </label>
+          </label>
+        </div>
+
+      </form>
+    </li>
+
+    <li class="collection-item">
+      <label class="clickable" ng-click="sendNewPassword()">Change password</label>
+    </li>
+
+    <li class="collection-item">
+      <label class="clickable" ng-click="logoff()">Log Off</label>
+    </li>
+  </ul>
+</section>

@@ -1,0 +1,23 @@
+<form action="">
+
+  <ul class="collection">
+    <li 
+      class="collection-item clickable" 
+      ng-repeat="address in addresses" 
+      ng-class="{'active green accent-3': address.selected}" 
+      ng-click="switchTo(address)">
+      <address>
+        {{address.number}}, {{address.street}} <br>
+        {{address.city}}, {{address.state}} {{address.zip}} <br>
+      </address>
+    </li>
+  </ul>
+
+</form>
+
+<a class="waves-effect waves-light btn left light-blue accent-3" href="#/cart">
+  Products
+</a>
+<button class="waves-effect waves-light btn right green accent-3" ng-click="finish()">
+  Finish
+</button>

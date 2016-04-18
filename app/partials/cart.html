@@ -1,0 +1,23 @@
+<h3>Products</h3>
+
+<table class="bordered striped">
+  <tbody>
+    <tr class="clickable" ng-repeat="product in products" ng-click="goTo(product)">
+      <td>
+        {{product.name}}
+      </td>
+      <td class="right-align">
+        {{product.price | currency}}
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="right-align" colspan="2">
+        {{total | currency}}
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
+<a class="waves-effect waves-light btn right green accent-3" href="#/addresses">Confirm address</a>

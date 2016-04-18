@@ -1,0 +1,20 @@
+[
+  {
+    "name":"Huawei Nexus 6P",
+    "image":"/static/images/Huawei-Nexus-6P.jpg",
+    "description":"O Nexus 6P é um top de linha fabricado pela Huawei e projetado pelo Google que acaba de ganhar uma nova cor: durado. O smartphone apresenta tela Amoled de 5,7 polegadas e resolução QHD de 2560 x 1440 pixels. Com tamanho menor que o aparelho anterior, o 6P tem desenho industrial em metal, e, por dentro, vem com processador Snapdragon 810 octa-core, combinado com memória RAM de 3 GB e armazenamento de 32 GB, 64 GB e 128 GB. As câmeras do aparelho tem sensores de 12,3 megapixels (traseira) e 8 megapixels (frontal), ideal para selfies. Para completar, é possível gravar vídeos em 4K (2160p) e usar estabilização óptica de imagem (OIS). ",
+    "price": 2000
+  },
+  {
+    "name":"Smart TV 4K LG LED 43",
+    "image":"/static/images/Smart TV 4K LG LED 43.jpg",
+    "description":"Um novo padrão de alta definição com um nível de exigência nunca visto antes! A TV LG ULTRA HD 4K traz o futuro em qualidade de imagem através de uma resolução quatro vezes maior do que a FULL HD. O display de 8.3 milhões de pixels proporciona a exibição de imagens perfeitas mesmo em distâncias mais próximas. Assistindo esportes, filmes ou jogando, tenha a melhor a experiência visual com as imagens vivas da LG ULTRA HD 4K.",
+    "price": 2700
+  },
+  {
+    "name":"Apple MacBook Pro",
+    "image":"/static/images/Apple MacBook Pro.jpg",
+    "description":"O iMac sempre ofereceu uma experiência única para seu usuário ver e criar coisas extraordinárias mas, entendeu que para fazer um iMac ainda melhor, era preciso a melhor tela. Assim criou o iMac com tela Retina 5K de 27 polegadas que tem quatro vezes mais pixels do que um iMac de 27 polegadas padrão. Você vê detalhes inacreditáveis em uma dimensão inacreditável.",
+    "price": 7000
+  }
+]
